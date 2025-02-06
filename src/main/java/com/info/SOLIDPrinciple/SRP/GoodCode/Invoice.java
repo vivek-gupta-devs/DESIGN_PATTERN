@@ -11,7 +11,7 @@ public class Invoice {
 
     // Additional Functionality
     public void generateInvoice() {
-        System.out.printf("invoice generated & printed for amount %d%n", amount);
+        System.out.printf("invoice generated & printed for amount %.2f %n", amount);
     }
 
 }
