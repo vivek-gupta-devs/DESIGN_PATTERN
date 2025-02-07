@@ -7,13 +7,13 @@ public class PaymentProcessor {
             // Logic to handle credit card feature for amount calculation
             System.out.printf("Making a payment using %s to pay amount %.2f %n", paymentMethod, amount);
         } else if ("debit card".equals(paymentMethod)) {
-            // Logic to handle credit card feature for amount calculation
+            // Logic to handle debit card feature for amount calculation
             System.out.printf("Making a payment using %s to pay amount %.2f %n", paymentMethod, amount);
         } else if ("paypal".equals(paymentMethod)) {
-            // Logic to handle credit card feature for amount calculation
+            // Logic to handle paypal feature for amount calculation
             System.out.printf("Making a payment using %s to pay amount %.2f %n", paymentMethod, amount);
         } else {
-            // Logic to handle credit card feature for amount calculation
+            // Logic to handle cash feature for amount calculation
             System.out.printf("Making a payment using cash to pay amount %.2f %n", amount);
         }
     }
